@@ -1,6 +1,6 @@
 from scapy.all import sniff
 
-# 🚫 List of bad guys we want to block
+# List of bad guys we want to block
 blocked_ips = ["192.168.1.100", "10.0.0.5"]
 
 def packet_callback(packet):
